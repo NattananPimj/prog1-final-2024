@@ -83,7 +83,6 @@ class BallSimulation:
             turtle.left(90)
 
     def run(self):
-        while True:
             turtle.clear()
             self.draw_border()
             for b in self.ball_list:
@@ -92,5 +91,5 @@ class BallSimulation:
                 b.bounce_wall()
             turtle.update()
 
-simulation = BallSimulation(5)
-simulation.run()
+# simulation = BallSimulation(5)
+# simulation.run()
